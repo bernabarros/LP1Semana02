@@ -21,7 +21,9 @@ namespace Cilindro
             r = Console.ReadLine();
             num_raio = double.Parse(r);
 
-            
+            V = Math.PI*Math.Pow(num_raio,2)*num_altura;
+            Console.WriteLine($"{V:f3}");
+
 
 
         }

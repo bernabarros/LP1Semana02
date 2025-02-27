@@ -8,6 +8,7 @@ namespace VariousOperators
         private static void Main(string[] args)
         {
             Console.OutputEncoding= Encoding.UTF8;
+            
             string num_int;
             byte n;
 
