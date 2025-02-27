@@ -25,7 +25,14 @@ namespace BreakContinue
                 }
 
                 // Print turn number
+                if (turn == 10)
+                {
+                    continue;
+                }
+                else
+                {
                 Console.WriteLine($"Turn number {turn}");
+                }
             }
 
             // Print number of last turn
