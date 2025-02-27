@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Text;
 
 namespace ValoresEspeciais
 {
@@ -7,7 +6,6 @@ namespace ValoresEspeciais
     {
         private static void Main(string[] args)
         {
-            Console.OutputEncoding= Encoding.UTF8;
             sbyte sbyte_value;
             short short_value;
             int int_value;
@@ -16,7 +14,6 @@ namespace ValoresEspeciais
             ushort ushort_value;
             uint uint_value;
             ulong ulong_value;
-            char char_value;
             float float_value;
             double double_value;
             decimal decimal_value;
@@ -29,7 +26,6 @@ namespace ValoresEspeciais
             ushort_value = ushort.MaxValue;
             uint_value = uint.MaxValue;
             ulong_value = ulong.MaxValue;
-            char_value = char.MaxValue;
             float_value = float.MaxValue;
             double_value = double.MaxValue;
             decimal_value = decimal.MaxValue;
@@ -43,10 +39,33 @@ namespace ValoresEspeciais
             Console.WriteLine($"ushortMax: {ushort_value}");
             Console.WriteLine($"uintMax: {uint_value}");
             Console.WriteLine($"ulongMax: {ulong_value}");
-            Console.WriteLine($"charMax: {char_value}");
             Console.WriteLine($"floatMax: {float_value}");
             Console.WriteLine($"doubleMax: {double_value}");
             Console.WriteLine($"decimalMax: {decimal_value}");
+
+            sbyte_value = sbyte.MinValue;
+            short_value = short.MinValue;
+            int_value = int.MinValue;
+            long_value = long.MinValue;
+            byte_value = byte.MinValue;
+            ushort_value = ushort.MinValue;
+            uint_value = uint.MinValue;
+            ulong_value = ulong.MinValue;
+            float_value = float.MinValue;
+            double_value = double.MinValue;
+            decimal_value = decimal.MinValue;
+
+            Console.WriteLine($"sbyteMin: {sbyte_value}");
+            Console.WriteLine($"shortMin: {short_value}");
+            Console.WriteLine($"intMin: {int_value}");
+            Console.WriteLine($"longMin: {long_value}");
+            Console.WriteLine($"byteMin: {byte_value}");
+            Console.WriteLine($"ushortMin: {ushort_value}");
+            Console.WriteLine($"uintMin: {uint_value}");
+            Console.WriteLine($"ulongMin: {ulong_value}");
+            Console.WriteLine($"floatMin: {float_value}");
+            Console.WriteLine($"doubleMin: {double_value}");
+            Console.WriteLine($"decimalMin: {decimal_value}");
         }
     }
 }
