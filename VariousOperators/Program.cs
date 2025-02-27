@@ -17,6 +17,7 @@ namespace VariousOperators
             n = byte.Parse(num_int);
 
             Console.WriteLine($"{n/2}");
+            Console.WriteLine($"{n<<3}");
         }
     }
 }
