@@ -18,6 +18,8 @@ namespace ValoresEspeciais
             double double_value;
             decimal decimal_value;
 
+            double special_num;
+
             sbyte_value = sbyte.MaxValue;
             short_value = short.MaxValue;
             int_value = int.MaxValue;
@@ -66,6 +68,18 @@ namespace ValoresEspeciais
             Console.WriteLine($"floatMin: {float_value}");
             Console.WriteLine($"doubleMin: {double_value}");
             Console.WriteLine($"decimalMin: {decimal_value}");
+
+            special_num = double.PositiveInfinity;
+
+            Console.WriteLine($"{special_num}");
+
+            special_num = double.NegativeInfinity;
+
+            Console.WriteLine($"{special_num}");
+
+            special_num = float.NaN;
+
+            Console.WriteLine($"{special_num}");
         }
     }
 }
