@@ -84,6 +84,11 @@ namespace ValoresEspeciais
             uint_value = uint.MaxValue;
 
             Console.WriteLine($"{uint_value + 1}");
+
+            float_value = float.MaxValue;
+
+            Console.WriteLine($"{float_value + 1}");
+            Console.WriteLine($"{2 * float_value}");
         }
     }
 }
