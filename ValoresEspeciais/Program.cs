@@ -89,6 +89,14 @@ namespace ValoresEspeciais
 
             Console.WriteLine($"{float_value + 1}");
             Console.WriteLine($"{2 * float_value}");
+
+            //float f1, f2;
+            //f1 = f2 = 10000.0f;
+            //Console.WriteLine(f1 == f2 + 0.0001f);
+
+            float_value = 100000000.0f;
+
+            Console.WriteLine($"{float_value + 0.1f}");
         }
     }
 }
