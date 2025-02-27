@@ -20,6 +20,8 @@ namespace ValoresEspeciais
 
             double special_num;
 
+            float underflowfloat;
+
             sbyte_value = sbyte.MaxValue;
             short_value = short.MaxValue;
             int_value = int.MaxValue;
@@ -94,9 +96,9 @@ namespace ValoresEspeciais
             //f1 = f2 = 10000.0f;
             //Console.WriteLine(f1 == f2 + 0.0001f);
 
-            float_value = 100000000.0f;
+            float_value = underflowfloat = 100000000.0f;
 
-            Console.WriteLine($"{float_value + 0.1f}");
+            Console.WriteLine($"{float_value == underflowfloat + 0.1f}");
         }
     }
 }
