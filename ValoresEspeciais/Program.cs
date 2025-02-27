@@ -80,6 +80,10 @@ namespace ValoresEspeciais
             special_num = float.NaN;
 
             Console.WriteLine($"{special_num}");
+
+            uint_value = uint.MaxValue;
+
+            Console.WriteLine($"{uint_value + 1}");
         }
     }
 }
