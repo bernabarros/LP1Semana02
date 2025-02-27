@@ -24,7 +24,8 @@ namespace Cilindro
             V = Math.PI*Math.Pow(num_raio,2)*num_altura;
             Console.WriteLine($"{V:f3}");
 
-
+            Sa = 2*Math.PI*num_raio*(num_raio + num_altura);
+            Console.WriteLine($"{Sa:f3}");
 
         }
     }
