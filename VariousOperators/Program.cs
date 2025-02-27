@@ -18,6 +18,7 @@ namespace VariousOperators
 
             Console.WriteLine($"{n/2}");
             Console.WriteLine($"{n<<3}");
+            Console.WriteLine($"{n^6}");
         }
     }
 }
