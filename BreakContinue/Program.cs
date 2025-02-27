@@ -24,7 +24,7 @@ namespace BreakContinue
                     continue;
                 }
 
-                // Print turn number
+                // Print turn number if turn not 10
                 if (turn == 10)
                 {
                     continue;
