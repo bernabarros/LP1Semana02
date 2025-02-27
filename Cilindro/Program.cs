@@ -6,7 +6,24 @@ namespace Cilindro
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Hello LP1!");
+            string a;
+            string r;
+            double num_altura;
+            double num_raio;
+            double V;
+            double Sa;
+
+            Console.Write("Insere a altura do cilindro: ");
+            a = Console.ReadLine();
+            num_altura = double.Parse(a);
+
+            Console.Write("Insere o raio do cilindro: ");
+            r = Console.ReadLine();
+            num_raio = double.Parse(r);
+
+            
+
+
         }
     }
 }
