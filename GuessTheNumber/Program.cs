@@ -51,7 +51,6 @@ namespace GuessTheNumber
                 else
                 {
                     num_tries = ++num_tries;
-                    
                     Console.WriteLine($"You found the hidden number "+
                     $"{numberToGuess} after {num_tries} tries");
                     active = false;
