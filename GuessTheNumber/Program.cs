@@ -31,14 +31,27 @@ namespace GuessTheNumber
                 {
                     Console.WriteLine("Numbers must be between 0 and 30. "+
                     "Try again.");
-                    num_tries = num_tries++;
+                    num_tries = ++num_tries;
+                    Console.WriteLine($"{num_tries}");
                 }
                 //Check if input number is lower than target number
                 else if (int_guess < numberToGuess)
                 {
                     Console.WriteLine($"The hidden number is higher than "+
                     $"{int_guess}. Try again");
-                    num_tries = num_tries++;
+                    num_tries = ++num_tries;
+                }
+                else if (int_guess > numberToGuess)
+                {
+                    Console.WriteLine($"The hidden number is lower than "+
+                    $"{int_guess}. Try again");
+                    num_tries = ++num_tries;
+                }
+                else
+                {
+                    Console.WriteLine($"You found the hidden number "+
+                    $"{numberToGuess} after {num_tries} tries");
+                    active = false;
                 }
             }
         }
