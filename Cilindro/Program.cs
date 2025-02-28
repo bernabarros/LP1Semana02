@@ -26,7 +26,6 @@ namespace Cilindro
 
             Sa = 2*Math.PI*num_raio*(num_raio + num_altura);
             Console.WriteLine($"{Sa:f3}");
-
         }
     }
 }
